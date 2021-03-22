@@ -1,2 +1,2 @@
-# netflix
-Recriar página da netflix
+# netflix_Clone
+Recriar página da netflix(clonando).

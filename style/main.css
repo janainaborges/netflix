@@ -1,0 +1,48 @@
+/* essas cores estão como variavel padrão, e posso chamar sem precisar ficar procurando novamente */
+:root{
+    --vermelho: #E50914;
+    --preta: #141414; 
+}
+
+/* aqui crio as margens de toda a página */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* aqui o foco é no corpo da página*/
+body{
+    background: var(--preta);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* aqui ajusto a posição da logo e os itens */
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; /* colocar de maneira horizontal*/
+}
+
+/* aqui o foco é a logo do netflix */
+header .logo{
+    margin-left: 5px;
+    color: var(--vermelho);
+    font-family: 'Ariel Black', Times;
+    font-size: 40px;
+}
+
+
+/* aqui tiro o modo "link" dos itens, com ajustes de cor*/
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+
+/* o mouse passa por cima e muda a cor*/
+header nav a:hover{
+    color: #fff;
+}
