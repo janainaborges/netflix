@@ -11,10 +11,15 @@
     box-sizing: border-box;
 }
 
+
+/* Elementos base*/
+
+
 /* aqui o foco é no corpo da página*/
 body{
     background: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 /* aqui ajusto a posição da logo e os itens */
@@ -45,4 +50,27 @@ header nav a{
 /* o mouse passa por cima e muda a cor*/
 header nav a:hover{
     color: #fff;
+}
+
+/* filme principal */
+
+.filme-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%),url('/img/house.png');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.filme-principal .descricao{
+    margin-bottom: 40px;
+}
+
+.titulo {
+    font-size: 40px;
 }
